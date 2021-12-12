@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-11T14:47:37.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="2yWSDuxsT3zMwTdEoyMl" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-12T21:28:59.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="PWl6EwB3Iz8ccHeK3pfC" version="15.9.4" type="github">
   <diagram id="9TAz_1H400u0ACSNHKao" name="Page-1">
-    <mxGraphModel dx="2645" dy="1638" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2856" dy="1680" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,7 +79,7 @@
           <mxGeometry x="-890" y="112" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qve0bd57VHzFd3FHXnv2-39" value="&lt;font style=&quot;font-size: 20px&quot;&gt;3.after that what you need to do will now go and run &quot;php artisan migrate&quot; and&amp;nbsp; &quot;php artsan serv&quot;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="-1080" y="279" width="1091.5" height="21" as="geometry" />
+          <mxGeometry x="-1065" y="279" width="1091.5" height="21" as="geometry" />
         </mxCell>
         <mxCell id="qve0bd57VHzFd3FHXnv2-40" value="http://localhost/phpmyadmin/index.php?route=/sql&amp;amp;server=1&amp;amp;db=laravello7&amp;amp;table=user&amp;amp;pos=0" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=12;fontColor=none;" parent="1" vertex="1">
           <mxGeometry x="-344" y="125" width="352" height="66" as="geometry" />
@@ -91,7 +91,7 @@
           <mxGeometry x="-1040.75" y="345" width="1154" height="63" as="geometry" />
         </mxCell>
         <mxCell id="qve0bd57VHzFd3FHXnv2-43" value="4-1 now we have to create eloquent database models right all the relationships and create the migrations" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=12;fontColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-993" y="405" width="762" height="22" as="geometry" />
+          <mxGeometry x="-988" y="405" width="762" height="22" as="geometry" />
         </mxCell>
         <mxCell id="qve0bd57VHzFd3FHXnv2-48" value="client" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;labelBackgroundColor=#66B2FF;labelBorderColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-983" y="496" width="120" height="60" as="geometry" />
@@ -145,42 +145,70 @@
           <mxGeometry x="-466" y="535" width="169" height="18" as="geometry" />
         </mxCell>
         <mxCell id="qve0bd57VHzFd3FHXnv2-71" value="4-2 lets proceed with declaring all the rlationships between the models" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=12;fontColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-993" y="830" width="527" height="22" as="geometry" />
+          <mxGeometry x="-988" y="830" width="527" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="eXwazcqGZ7wj7u4mcAmO-1" value="the rules" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" vertex="1" parent="1">
+        <mxCell id="eXwazcqGZ7wj7u4mcAmO-1" value="the rules" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" parent="1" vertex="1">
           <mxGeometry x="-956.12" y="854" width="56" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="eXwazcqGZ7wj7u4mcAmO-2" value="&lt;font color=&quot;#000000&quot;&gt;1-one client can contain many jobes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" vertex="1" parent="1">
-          <mxGeometry x="-952" y="872" width="201" height="18" as="geometry" />
+        <mxCell id="eXwazcqGZ7wj7u4mcAmO-2" value="&lt;font color=&quot;#000000&quot;&gt;1-one client can contain many jobes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" parent="1" vertex="1">
+          <mxGeometry x="-974.25" y="886" width="201" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="eXwazcqGZ7wj7u4mcAmO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.831;entryY=1.111;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="eXwazcqGZ7wj7u4mcAmO-8" target="eXwazcqGZ7wj7u4mcAmO-2">
+        <mxCell id="eXwazcqGZ7wj7u4mcAmO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0.944;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=#000000;" parent="1" source="eXwazcqGZ7wj7u4mcAmO-8" target="eXwazcqGZ7wj7u4mcAmO-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eXwazcqGZ7wj7u4mcAmO-8" value="path :app/client.php modul&lt;br&gt;public function jobes() :HasMany{&lt;br&gt;$this-&amp;gt;hasmany(jobes::class,&#39;client_id&#39;)&lt;br&gt;}" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-677.1800000000001" y="875" width="419" height="128" as="geometry" />
+        <mxCell id="eXwazcqGZ7wj7u4mcAmO-8" value="path :app/client.php modul&lt;br&gt;public function jobes() :HasMany{&lt;br&gt;$this-&amp;gt;hasmany(jobes::class,&#39;client_id&#39;)&lt;br&gt;}&lt;br&gt;&lt;div style=&quot;color: rgb(214 , 222 , 235) ; background-color: rgb(1 , 22 , 39) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c792ea ; font-style: italic&quot;&gt;public&lt;/span&gt; &lt;span style=&quot;color: #c792ea&quot;&gt;function&lt;/span&gt; &lt;span style=&quot;color: #82aaff ; font-style: italic&quot;&gt;user_own&lt;/span&gt;&lt;span style=&quot;color: #d9f5dd&quot;&gt;()&lt;/span&gt;&lt;span style=&quot;color: #7fdbca&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #ffcb8b&quot;&gt;BelongsTo&lt;/span&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #7fdbca&quot;&gt;$this-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #82aaff ; font-style: italic&quot;&gt;BelongsTo&lt;/span&gt;(&lt;span style=&quot;color: #ffcb8b&quot;&gt;User&lt;/span&gt;&lt;span style=&quot;color: #7fdbca&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #c792ea&quot;&gt;class&lt;/span&gt;,&lt;span style=&quot;color: #d9f5dd&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color: #ecc48d&quot;&gt;user_id&lt;/span&gt;&lt;span style=&quot;color: #d9f5dd&quot;&gt;&#39;&lt;/span&gt;);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=13;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-721" y="860" width="619.18" height="262" as="geometry" />
         </mxCell>
-        <mxCell id="eXwazcqGZ7wj7u4mcAmO-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/freecns-cumulus/16/519642-143_Attention-128.png;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="eXwazcqGZ7wj7u4mcAmO-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/freecns-cumulus/16/519642-143_Attention-128.png;fontSize=13;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-590" y="860" width="18" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="eXwazcqGZ7wj7u4mcAmO-11" value="if not the import was auto :use Illuminate /Database\Eloquent\HasMany" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="eXwazcqGZ7wj7u4mcAmO-11" value="if not the import was auto :use Illuminate /Database\Eloquent\HasMany" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-570" y="862" width="419" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="eXwazcqGZ7wj7u4mcAmO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.831;entryY=1.111;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="eXwazcqGZ7wj7u4mcAmO-17">
+        <mxCell id="eXwazcqGZ7wj7u4mcAmO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.243;entryY=1.056;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=#000000;" parent="1" source="eXwazcqGZ7wj7u4mcAmO-17" edge="1" target="eXwazcqGZ7wj7u4mcAmO-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-757.9189999999999" y="1058.998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eXwazcqGZ7wj7u4mcAmO-17" value="path :app/client.php modul&lt;br&gt;public function jobes() :HasMany{&lt;br&gt;$this-&amp;gt;hasmany(jobes::class,&#39;client_id&#39;)&lt;br&gt;}" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-650.1300000000001" y="1042" width="419" height="128" as="geometry" />
+        <mxCell id="eXwazcqGZ7wj7u4mcAmO-17" value="path :app/client.php modul&lt;br&gt;public function jobes() :HasMany{&lt;br&gt;$this-&amp;gt;hasmany(jobes::class,&#39;client_id&#39;)&lt;br&gt;}" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=13;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-716" y="1245" width="419" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="eXwazcqGZ7wj7u4mcAmO-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/freecns-cumulus/16/519642-143_Attention-128.png;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-562.95" y="1027" width="18" height="18" as="geometry" />
+        <mxCell id="eXwazcqGZ7wj7u4mcAmO-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/freecns-cumulus/16/519642-143_Attention-128.png;fontSize=13;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-743" y="1196" width="18" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="eXwazcqGZ7wj7u4mcAmO-19" value="if not the import was auto :use Illuminate /Database\Eloquent\HasMany" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-542.95" y="1029" width="419" height="20" as="geometry" />
+        <mxCell id="eXwazcqGZ7wj7u4mcAmO-19" value="if not the import was auto :use Illuminate /Database\Eloquent\HasMany" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-725" y="1194" width="419" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="eXwazcqGZ7wj7u4mcAmO-20" value="&lt;font color=&quot;#000000&quot;&gt;1-one user can contain many clients&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" vertex="1" parent="1">
-          <mxGeometry x="-942" y="1034" width="202" height="18" as="geometry" />
+        <mxCell id="eXwazcqGZ7wj7u4mcAmO-20" value="&lt;font color=&quot;#000000&quot;&gt;1-one user can contain many clients&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" parent="1" vertex="1">
+          <mxGeometry x="-983" y="1074" width="202" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="P5F7i4kGJtxITmPqo4OU-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1.004;entryY=0.516;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="eXwazcqGZ7wj7u4mcAmO-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="272" y="932" as="sourcePoint" />
+            <mxPoint x="-775" y="901" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-38" y="837" />
+              <mxPoint x="-647" y="855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5F7i4kGJtxITmPqo4OU-3" value="" style="shape=stencil(lZXdbsIwDIWfprdHiZ0/XzP2HkiUUY1RVGA/b79UlcaK1Ernzk2/49iOEze6uR53l7YRd70N/Xv71e1vx0ZfGpHufGyH7latRreNbg790L4N/f28n74vu5EcrY/+c/TwPekcnBtF4n6mBe/+ll4nwak7zwQxzASqUF3mAzTPeFn3bwg2DyhAbJn3HnkekBfElQ18fN5hPSBvSIHga8aO8S8FyvhXgWf8a0RWhq8nkAk+KJwwfEJOBB8dsmf4gBgZvtbfEXzyMOa8UoQUhq/xMPXMHsrUMyuM6Z+cIEz9c4Ew9SmO67ciUCb+EhCY+EuCZ+5LyShMvxVDZPI1z/WnCYzJ1wKXr0XuvbKEyPSnZe6+W0Gm3vPHgFsSVOMxLw/d6TSN2///n+drXZpms25/AQ==);fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-89.57142857142844" y="975.2857142857147" width="176.42857142857144" height="1.4285714285714286" as="geometry" />
+        </mxCell>
+        <mxCell id="P5F7i4kGJtxITmPqo4OU-4" value="" style="shape=stencil(lVXLcsMgDPwaXzUgQIJzmv5HZuLUnrpxxnH6+PvicdPGYGvKDeNdpF0hVJndtTlc6grVdRz61/qjPY5NZZ4qxPbc1EM7xlVl9pXZnfqhfhn62/k4f18OE3JavfXv0wmfM0+BUhMJ1Vey8TzDu/YswREUFsAJFBXAtQbjS/AG2JbgPSjexmvgsFSLwGYbz6DtEs+A0vkIbpmQiYKDQGDwtCRYCIKj6FLJhoEEgsFUg1Wg3TbB6ruFv4SoSjDJZVWwFli4cy6z1RKwkBJlttoASkiJAtAygtNgtVBoSm+Gs2Lf+MxWRxCElDynGkiJVyNkdSC5GYJNRVM0WtAQPKBeEDimJNRBq6zUbMSGXmMQkPDCrDECuLKsYnVcWVbegZYae4URW7csRojulsUIeH8e/s1wYq+uMeKTWebuw9YPJS7+5tGp7bp5nD3+T+dX3Jpnn9l/Aw==);fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-68.14285714285688" y="921" width="10" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="P5F7i4kGJtxITmPqo4OU-5" value="" style="shape=stencil(lVVJbsMwDHyNrwNJ1HpO238EiNMYTePASbffl4abRZJNNDdZmqE4Q1psaHXarY9tY9TpPPRv7Ve3Oe8aemqM6Q67dujOvGrouaHVth/a16H/OGym7+N6RI6r9/5zjPA98RSUGklG/RQbLxN83x3u4B7kCni0y/AAbzK4RnTL8ASXwy3ILMO1QtAZ3kMlAU/QudgERQLewqQ8fQOvBYKDjTkhQEsKPHzICMZA+WUC+21sTgggISVDiLlHZGCEGozxcg3kEcMygRRS3hNWQ0kEW5XZIgmiOV7hko2wgq18XIh2nJIg2nGZclsdwQkafNUaziEJvRc0LOWECCcULlR18GyD4FIkUH6Dd1CCSzGVGjynJGhIVR0C95LgUrIX168Ed2mWeYIr2ztc34R/EqJBjA8RvPgIzBC4+R7SkBTcYwS2VUrJl72U+C8XXu1UvcPjnVLhasL1znkCe5L/cbcQC293NXk4htQbM4y7rT8KL26Tbtvt99OgvD8vJyNvTVOVnn8B);fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="14.71428571428578" y="908.1428571428573" width="15.000000000000002" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="P5F7i4kGJtxITmPqo4OU-6" value="" style="shape=stencil(lZTbboMwDIafJreWHed43XXvUal0oDGoKDu9/RJF3TAdkbgLhg/7t/9Y8eHWnq6N0nibp/G1+ezOc6v4SWndDW0zdXM6KT4qPlzGqXmZxvfhXJ6vp/xlPr2NH/kPX4VDQMyQxu8SIPwNPReg74YFoCHyLiCA3peBDLh9KSjliPtU7M7BBJ4EEVNWqgABfJAAAfptwDgwTgBBA5ltwDI4CXiuluQQnNTgzL1z/wMPJVkL7LYBTxBkX7MqrgAOrBwde7A1OyFE2VbGaknBgJcakiVtZQ7Bg5MZtK1aIyIYqUFTVXR8vEQeQkVDtOvBUX1wyZtopTWqVlq4/w6sr0M6/C2RS9f3ZQct36+XTgqVhcXHHw==);fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-81" y="1039.571428571429" width="146.42857142857144" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="P5F7i4kGJtxITmPqo4OU-7" value="&lt;div style=&quot;color: rgb(214 , 222 , 235) ; background-color: rgb(1 , 22 , 39) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #c792ea ; font-style: italic&quot;&gt;public&lt;/span&gt; &lt;span style=&quot;color: #c792ea&quot;&gt;function&lt;/span&gt; &lt;span style=&quot;color: #82aaff ; font-style: italic&quot;&gt;client_jobes&lt;/span&gt;&lt;span style=&quot;color: #d9f5dd&quot;&gt;()&lt;/span&gt;&lt;span style=&quot;color: #7fdbca&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #ffcb8b&quot;&gt;BelongsTo&lt;/span&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #7fdbca&quot;&gt;$this-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #82aaff ; font-style: italic&quot;&gt;belongsTo&lt;/span&gt;(&lt;span style=&quot;color: #ffcb8b&quot;&gt;Client&lt;/span&gt;&lt;span style=&quot;color: #7fdbca&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #c792ea&quot;&gt;class&lt;/span&gt;,&lt;span style=&quot;color: #d9f5dd&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color: #ecc48d&quot;&gt;client_id&lt;/span&gt;&lt;span style=&quot;color: #d9f5dd&quot;&gt;&#39;&lt;/span&gt;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="86.86" y="932" width="515.14" height="221" as="geometry" />
+        </mxCell>
+        <mxCell id="P5F7i4kGJtxITmPqo4OU-9" value="&lt;font style=&quot;font-size: 20px&quot;&gt;4.now lets go to those free migration files which are actually responsible for putting all the things together&quot;I mean models with defined field are inside them&quot;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1029" y="1404" width="1122.5" height="63" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
