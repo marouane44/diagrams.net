@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-02T21:29:27.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="kTlcCZu7U94OxspxTpFV" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T10:35:37.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Mpz7Prbq0aq13lyLRry_" version="16.1.2" type="github">
   <diagram id="9TAz_1H400u0ACSNHKao" name="Page-1">
-    <mxGraphModel dx="3547" dy="2047" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2268" dy="1345" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -318,6 +318,18 @@
         </mxCell>
         <mxCell id="qa0mYKdwRBnc__VYtlx4-3" value="const mix = require(&#39;laravel-mix&#39;); &#xa; &#xa;mix.postCss(&#39;resources/css/app.css&#39;,&#39;public/css&#39;,[ &#xa;    require(&#39;tailwindcss&#39;) &#xa;]); &#xa;mix.extend( &#xa;    &#39;graphql&#39;, &#xa;    new class { &#xa;     &#xa;        dependencies() { &#xa;            return[&#39;graphql&#39;,&#39;graphql-tag&#39;] &#xa;        } &#xa; &#xa;        webpackRules() { &#xa;            return{ &#xa;            test: /\.(graphql|gql)$/, &#xa;            exclude: /node_modules/, &#xa;            loader: &#39;graphql-tag/loader&#39; &#xa;        } &#xa;        } &#xa; &#xa;      &#xa;    }() &#xa;); &#xa;mix.js(&#39;resources/js/app.js&#39;, &#39;public/js&#39;); &#xa;mix.graphql();" style="text;whiteSpace=wrap;html=1;fontSize=17;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="-782.5" y="4844" width="552" height="534" as="geometry" />
+        </mxCell>
+        <mxCell id="9OLDxknf3Js1loqot7rv-2" value="9 Setting Up Vue Router" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=1;hachureGap=4;fontFamily=Lucida Console;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-901.06" y="5498" width="320.31" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9OLDxknf3Js1loqot7rv-3" value="firat you need to desable run watch and the run&amp;nbsp;&lt;font color=&quot;#cc0066&quot;&gt;npm i vue-router@3.3.4&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-867" y="5555" width="390" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="9OLDxknf3Js1loqot7rv-4" value="after that you need to creat a file named it router.config.js in this path &lt;font color=&quot;#ff0000&quot;&gt;resources\js\router.config.js&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-869" y="5577" width="524" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="9OLDxknf3Js1loqot7rv-5" value="&lt;font color=&quot;#000000&quot;&gt;after that go to app.blade.app and replace miane vue with this&lt;/font&gt;&amp;nbsp;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;router-view&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;router-view&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-867" y="5602" width="549" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
