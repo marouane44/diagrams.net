@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T10:35:37.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Mpz7Prbq0aq13lyLRry_" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T10:37:11.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="cZSF9C2YkyxXlEsDSSxL" version="16.1.2" type="github">
   <diagram id="9TAz_1H400u0ACSNHKao" name="Page-1">
     <mxGraphModel dx="2268" dy="1345" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -330,6 +330,9 @@
         </mxCell>
         <mxCell id="9OLDxknf3Js1loqot7rv-5" value="&lt;font color=&quot;#000000&quot;&gt;after that go to app.blade.app and replace miane vue with this&lt;/font&gt;&amp;nbsp;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;router-view&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;router-view&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="-867" y="5602" width="549" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="9OLDxknf3Js1loqot7rv-6" value="and then go to app.js and inport vu router" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-863" y="5632" width="230" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
